@@ -1,34 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Minha Loja de Peças</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 42 fourtwo carros e peças</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>fourtwo peças e carros</h1>
+        <div class="logo">AutoPremium</div>
+        <nav>
+            <a href="#estoque">Estoque</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
 
-    <main class="container">
-        <div class="card">
-            <img src="https://via.placeholder.com/200" alt="Nome da Peça">
-            <h3>A</h3>
-            <p>Descrição rápida da peça e suas especificações.</p>
-            <span class="preco">R$ 150,00</span>
-            <button>Comprar</button>
-        </div>
+    <section class="hero">
+        <h1>Encontre o carro dos seus sonhos</h1>
+        <p>Qualidade, garantia e os melhores preços do mercado.</p>
+    </section>
 
-        <div class="card">
-            <img src="https://via.placeholder.com/200" alt="Nome da Peça">
-            <h3>Nome da Peça B</h3>
-            <p>Descrição rápida da peça e suas especificações.</p>
-            <span class="preco">R$ 280,00</span>
-            <button>C</button>
-        </div>
+    <main id="estoque">
+        <h2 class="titulo-secao">Nosso Estoque</h2>
+        <div class="vitrine">
 
-        </main>
+            <div class="peças">
+                <div class="img-placeholder">Imagem do Carro</div>
+                <div class="info-carro">
+                    <h3>Toyota Corolla XEI</h3>
+                    <p class="ano-km">2023 • 15.000 km</p>
+                    <p class="preco">R$ 145.900</p>
+                    <button class="btn-comprar">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="card-carro">
+                <div class="img-placeholder">Imagem do Carro</div>
+                <div class="info-carro">
+                    <h3>Honda Civic Touring</h3>
+                    <p class="ano-km">2022 • 22.000 km</p>
+                    <p class="preco">R$ 168.500</p>
+                    <button class="btn-comprar">Tenho Interesse</button>
+                </div>
+            </div>
+
+            <div class="card-carro">
+                <div class="img-placeholder">Imagem do Carro</div>
+                <div class="info-carro">
+                    <h3>Volkswagen Nivus Highline</h3>
+                    <p class="ano-km">2024 • 0 km</p>
+                    <p class="preco">R$ 139.990</p>
+                    <button class="btn-comprar">Tenho Interesse</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AutoPremium. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
